@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
+        integrity="sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhai Biryani</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-- overal box -->
+    <section class="row border border-0 border border-dark min-vh-100 ">
+        <!-- top -->
+        <div class="row text-white top">
+            <!-- Logo -->
+            <div class="col-12 col-lg-2 d-flex align-items-center justify-content-center ps-3">
+                <img src="./logo.png" width="63" height="80">
+                <span class="ms-2 fs-5">Bhai <br>Biryani</span>
+            </div>
+            <!-- Location -->
+            <div class="col-12 col-lg-2 d-flex align-items-center justify-content-center flex-column">
+                <p class="mb-1">Location</p>
+                <!-- input-box -->
+                <div class="row rounded-pill p-1 text-dark  bg-light order-box">
+                    <div class="col-3 border border-0 border border-dark ">
+                        <i class="fa-regular fa-clock fs-4"></i>
+                    </div>
+                    <div class="col-6 border border-0 border border-dark">
+                        <span>Order Now</span>
+                    </div>
+                    <div class="col-3 border border-0 border border-dark">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Delivery -->
+            <div class="col-12 col-lg-1 d-flex align-items-center justify-content-center">
+                <img src="./delivery.png" height="20">
+                <span class="ps-2">
+                    Delivery
+                </span>
+            </div>
+            <label for="head">
+                <i class="fa-solid fa-bars icon"></i>
+            </label>
+            <!-- checked box -->
+            <input id="head" type="checkbox">
+            <!-- Navbar -->
+            <nav class="col-12 col-lg-5 d-flex align-items-center justify-content-center gap-4 py-3">
+                <a href="#" class="text-decoration-none text-light fs-5">
+                    Search
+                </a>
+                <a href="#taste" class="text-decoration-none text-light fs-5">
+                    About us
+                </a>
+                <a href="#makes" class="text-decoration-none text-light fs-5">
+                    Menu
+                </a>
+                <a href="#favour" class="text-decoration-none text-light fs-5">
+                    Bulk Orders
+                </a>
+                <a href="#upper" class="text-decoration-none text-light fs-5">
+                    Book A Table
+                </a>
+            </nav>
+            <!-- Orders -->
+            <div class="col-12 col-lg-2 d-flex justify-content-center align-items-center">
+                <button class="bg-warning text-light rounded-pill border-0 w-75 p-2">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Orders Now
+                </button>
+            </div>
+        </div>
+        <!-- content -->
+        <div class=" row outer">
+            <div class="col-12 col-lg-6 ps-5 left">
+                <h1 class="heads w-auto">Royal Biryani Bliss</h1>
+                <p class="para mt-4">Savor the rich aroma, bold spices, and melt-in-your-mouth goodness of our
+                    authentic, handcrafted biryani!</p>
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <button class="btnn bg-danger text-light mt-4"><i class="fa-solid fa-chevron-right icons"></i>
+                            <div class="btn-order"> order now</div>
+                        </button>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 fs-4 mt-4 ms-5 mut">
+                        <p>Mutton Biryani</p>
+                    </div>
+                    <div class="col-12 col-md-1 col-lg-1 fs-1 mt-3 text-warning">
+                        <span>$15</span>
+                    </div>
+                </div>
+                <!-- van delivery -->
+                <div class="row  text-light vans mt-4 ">
+                    <div class="col-4 fs-6 van1">
+                        <img src="./van.png" height="50" width="50">
+                        <p>Freshly<br> Made</p>
+                    </div>
+                    <div class="col-4 fs-6 van1">
+                        <img src="./van.png" height="50" width="50">
+                        <p>Authentic<br>Flavors</p>
+                    </div>
+                    <div class="col-4 fs-6 van1">
+                        <img src="./van.png" height="50" width="50">
+                        <p>Fast<br> Delivery</p>
+                    </div>
+                </div>
+            </div>
+            <!-- right-side -->
+            <div class="col  right">
+                <!-- cards -->
+                <div class="box">
+                    <img src="./biriyani.png">
+                </div>
+                <div class="box box1">
+                    <img src="./biriyani.png">
+                </div>
+                <div class="box box2">
+                    <img src="./biriyani.png">
+                </div>
+                <div class="box box3">
+                    <img src="./biriyani.png">
+                </div>
+                <div class="box box4">
+                    <img src="./biriyani.png">
+                </div>
+                <!-- shadow -->
+                <div class="ellipse"></div>
+                <div class="biryani-card">
+                    <img src="./biriyani.png" class="biryani-img">
+                    <div class="offer">
+                        <h3>Special Offer</h3>
+                        <p>Chicken Biryani</p>
+                        <h4>$199 Only</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- road -->
+            <div class="row bg-dark  w-100 mx-0 overflow-hidden ">
+                <div class="col special w-100">
+                    <h3>Special Offer</h3>
+                </div>
+                <!-- <div class="road"></div>
+     <div class="road"></div> -->
+                <div class="col van-dev w-100">
+                    <img src="./van.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- outer2 -->
+    <div class="row min-vh-100 outer2 text-light">
+        <h1 id="taste">A Taste That Tells a Story</h1>
+        <!-- left para -->
+        <div class="col-12 col-lg-6 col-md-6 fs-3 ps-5 mt-5">
+            <p>From the royal kitchens of the Mughals to the bustling streets of Hyderabad, our biryani carries a legacy
+                of flavor and culture. Made with age-old recipes and premium ingredients, every serving is a tribute to
+                authenticity.</p>
+        </div>
+        <!-- animation -->
+         <div class="col-1">
+            <div class="select"></div>
+             <div class="select1"></div>
+              <div class="select2"></div>
+         </div>
+            <div class="col-1">
+            <div class="sel"></div>
+             <div class="sel1"></div>
+              <div class="sel2"></div>
+         </div>
+          <div class="col-1">
+            <div class="select"></div>
+             <div class="select1"></div>
+              <div class="select2"></div>
+         </div>
+          <div class="col-1">
+            <div class="sel"></div>
+             <div class="sel1"></div>
+              <div class="sel2"></div>
+         </div>
+          <div class="col-1">
+            <div class="select"></div>
+             <div class="select1"></div>
+              <div class="select2"></div>
+         </div>
+    </div>
+    <!-- outer3 -->
+   <div class="row  min-vh-100 text-light border border-0 border border-dark outer3">
+    <h1 class="maked">What Makes Our Biryani Special? </h1>
+    <div class="box-hover text-light">
+          <!-- Image -->
+    <div class="col-12 col-lg-6 masala">
+        <img src="./masala.jpg" class="special-img">
+    </div>
+ <!-- Content -->
+    <div class="col-12 col-lg-6 content1 text-light">
+        <h2>
+            We use the finest basmati rice,fresh herbs, and premium spices.
+        </h2>
+    </div>
+    <div class="col-6 open"> <h1 class="famous1">We are F in S</h1></div>
+     <div class=" col-6 open1"> <h1 class="famous">amous <br> pice</h1></div>
+     </div>
+   </div>
+   <!-- outer4 -->
+    <section class="row  min-vh-100 border border-dark border-0 outer4">
+        <h1 id="makes">Signature Food Loved by Thousands</h1>
+        <!-- menus -->
+        <div class="col-3 border border-dark border-0 ps-5 cols">
+            <div class="row w-75 mt-4 rolled">
+                <button class="rounded-pill p-2 fs-4 bt border-0 ">
+                    <img src="./biriyani.png" height="50" width="50" class="menu-img menus">Biryani<i class="fa-solid fa-arrow-right arrow"></i></button>
+                     <img src="./yani.jpg" height="300" width="300" class="img">
+            </div>
+            <div class="row w-75 mt-4 rolled">
+                <button class="rounded-pill p-2 fs-4 bt border-0">
+                    <img src="./65.jpg" height="50" width="50" class="menu-img">65 briyani<i class="fa-solid fa-arrow-right arrow"></i></button>
+                     <img src="./65.jpg" height="300" width="300" class="img">
+            </div>
+            <div class="row w-75 mt-4 rolled">
+                 <button class="rounded-pill p-2 fs-4 bt border-0">
+                    <img src="./mutton.jpg" height="50" width="50" class="menu-img">mutton<i class="fa-solid fa-arrow-right arrow"></i></button>
+                     <img src="./mutton.jpg" height="300" width="300" class="img">
+            </div>
+            <div class="row w-75 mt-4 rolled">
+                 <button class="rounded-pill p-2 fs-4 bt border-0">
+                    <img src="./prawn.jpg" height="50" width="50" class="menu-img">Prawn<i class="fa-solid fa-arrow-right arrow"></i></button>
+                     <img src="./prawn.jpg" height="300" width="300" class="img">
+            </div>
+            <img src="./line (2).png" class="line">
+        </div>
+          <div class="col-9 border border-dark border-0 col-right">
+            <div class="shape">
+                <div class="dum">
+                <h1 class="fs-1 w-50 dum1">Hyderabadi Dum Biryani  </h1>
+                <p class="fs-6 w-50 mt-4">A fragrant mix of basmati rice, marinated meat, and saffron, slow-cooked to perfection in traditional dum style.</p>
+                  <button class="btnn bg-danger text-light mt-4"><i class="fa-solid fa-chevron-right icons"></i>
+                            <div class="btn-order"><span class="order-text">order now</span>
+    <span class="ordered-text">ordered</span></div>
+                        </button>
+                </div>
+                <!-- <img src="./yani.jpg.png" height="300" width="300"> -->
+            </div>
+              <img src="./yani.jpg.png" height="500" width="500" class="right-yani">
+        </div>
+    </section>
+    <!-- outer5 -->
+     <div class=" row outer5">
+      <h1 class="maked">What Our Customers Say</h1>
+     <div class="review-scroll">
+    <!-- first -->
+    <section class="review">
+        <div class="swap">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+        <div class="swap">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+        <div class="swap swap1">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+          <div class="swap swap1">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+    </section>
+    <!-- next 2 -->
+   <section class="review">
+        <div class="swap">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+        <div class="swap swap1">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+        <div class="swap">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+          <div class="swap swap1">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+    </section>
+    <!-- next 3 -->
+   <section class="review">
+        <div class="swap swap1">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+
+          <div class="swap">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+        <div class="swap">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+        <div class="swap swap1">
+            <p>"Absolutely the best biryani! The flavors are authentic, and the portions are generous."</p>
+            <p>- Aarav M.</p>
+            <img src="./star (2).png" height="50" width="180">
+        </div>
+    </section>
+</div>
+    </div>    
+    <!-- outer6 -->
+      <section class=" row min-vh-100 outer6">
+        <!-- top-most -->
+        <div id="favour">
+            <h1>Order Your Favourite<span> Biryani </span></h1>
+            <p>Freshly cooked.Rich in flavours. Delivery to your door.</p>
+        </div>
+        <!-- cards -->
+        <div class="chicken">
+            <!-- img-box -->
+            <div class="chicken-img"></div>
+            <button class="Popular">Popular</button>
+            <h3>Chicken Biryani</h3>
+            <p class="chi-content">Authentic Hyderabadi chicken biryani with rich spices.</p>
+            <p class="rupes">$180</p>
+            <button class="chi-bt"><span>-</span><span>1</span><span>+</span></button>
+               <button class=" text-light border-0 w-50 p-2 shop-bt">
+                    <i class="fa-solid fa-cart-shopping shop"></i>
+                    Add to cart
+                </button>
+        </div>
+        <!-- card2 -->
+        <div class="chicken">
+            <!-- img-box -->
+            <div class="chicken-img mutton"></div>
+            <button class="Popular">Popular</button>
+            <h3>Mutton Biryani</h3>
+            <p class="chi-content">Tender mutton cooked with aromatic basmati rice and traditional spices.</p>
+            <p class="rupes">$250</p>
+            <button class="chi-bt"><span>-</span><span>1</span><span>+</span></button>
+               <button class=" text-light border-0 w-50 p-2 shop-bt">
+                    <i class="fa-solid fa-cart-shopping shop"></i>
+                    Add to cart
+                </button>
+        </div>
+        <!-- card3 -->
+        <div class="chicken">
+            <!-- img-box -->
+            <div class="chicken-img parwn"></div>
+            <button class="Popular">Popular</button>
+            <h3>Prawn Biryani</h3>
+            <p class="chi-content">Fresh prawns cooked with fragrant rice and authentic biryani spices.</p>
+            <p class="rupes">$280</p>
+            <button class="chi-bt"><span>-</span><span>1</span><span>+</span></button>
+               <button class=" text-light border-0 w-50 p-2 shop-bt">
+                    <i class="fa-solid fa-cart-shopping shop"></i>
+                    Add to cart
+                </button>
+        </div>
+          <!-- card4 -->
+        <div class="chicken">
+            <!-- img-box -->
+            <div class="chicken-img chi-65"></div>
+            <button class="Popular">Popular</button>
+            <h3>Chicken 65 Biryani</h3>
+            <p class="chi-content">Spicy Chicken 65 combined with flavorful aromatic biryani rice.</p>
+            <p class="rupes">$200</p>
+            <button class="chi-bt"><span>-</span><span>1</span><span>+</span></button>
+               <button class=" text-light border-0 w-50 p-2 shop-bt">
+                    <i class="fa-solid fa-cart-shopping shop"></i>
+                    Add to cart
+                </button>
+        </div>
+        </section>
+        <!-- outer7 -->
+         <section class="row min-vh-100 outer7">
+            <div class="col-7 bg-danger skew mt-4">
+                <h1 class="positions">A Feast of Flavors!</h1>
+                <h1 class="man-dhi">MANDHI</h1>
+                <p class="style">A flavorful Yemeni-style rice dish with tender, slow-cooked meat, aromatic spices, and a smoky essence, served with tangy sauces</p>
+                 <button class="btnn bg-danger text-light mt-4 man-bt"><i class="fa-solid fa-chevron-right icons"></i>
+                            <div class="btn-order"><span class="order-text">order now</span>
+    <span class="ordered-text">ordered</span></div>
+                        </button>
+                <img src="./bell.png" height="930" width="650" class="bell">
+                <img src="./mandhi.png" height="600" width="500" class="mandhi">
+            </div>
+            <!-- <div class="liness"></div> -->
+            <!-- rightside order -->
+            <div class="ord">
+                <!-- top -->
+                <div class="top-layers">
+                      <button class=" text-light border-0 w-50 p-2 clear">
+                    <i class="fa-solid fa-cart-shopping shop"></i>
+                    Your order
+                </button>
+                <button class=" text-light border-0 w-50 p-2 clear1">
+                     <i class="fa-regular fa-trash-can"></i>
+                    Clear Cart
+                </button>
+                </div>
+                <!-- chicken briyani -->
+                 <div class="ch-box">
+                <div class="ch-bri">
+                    <div class="chi-imged"></div>
+                    <div>
+                    <h5 class="right-chi">Chicken Biryani</h5>
+                    <p >$180</p></div>
+                    <button class=" chi-bts"><span>-</span><span>1</span><span>+</span></button>
+                    <p class="text-danger">$180</p>
+                 <p><i class="fa-solid fa-xmark"></i></p>
+                </div>
+                 <div class="ch-bri">
+                    <div class="chi-imged"></div>
+                    <div>
+                    <h5 class="right-chi">mutton Biryani</h5>
+                    <p >$180</p></div>
+                    <button class=" chi-bts"><span>-</span><span>1</span><span>+</span></button>
+                    <p class="text-danger">$180</p>
+                 <p><i class="fa-solid fa-xmark"></i></p>
+                </div>
+                <div class="ch-bri food">
+                    <div>
+                    <h5>Subtotal</h5>
+                    <h5>Delivery Charges</h5>
+                </div>
+                    <div>
+                         <p>$430</p>
+                    <p>$45</p></div>
+                </div>
+                <div class="ch-bris">
+                    <h3>Total</h3>
+                    <h3>$470</h3>
+                </div>
+                </div>
+           <!-- payment -->
+            <div class="ch-box1">
+                <p> <i class="fa-solid fa-truck delivery-icon del-van"></i>Delivery Details</p>
+            <!-- form -->
+               <div class="row g-3">
+  <div class="col-12">
+    <p class="full">Full name</p>
+   <i class="fa-solid fa-user profile"></i>
+    <input type="text" class="form-control p-3 ps-5" placeholder="Enter your name" aria-label="First name">
+  </div>
+  <div class="col-12">
+    <p class="phone">Phone number</p>
+    <i class="fa-solid fa-phone call"></i>
+    <input type="text" class="form-control ps-5 p-3" placeholder="Enter your phone number" aria-label="Last name">
+  </div>
+</div>
+  <div class="col-12 mt-3">
+    <p class="address">Deliver address</p>
+<i class="fa-solid fa-location-dot location"></i>
+    <input type="text" class="form-control ps-5 p-3" placeholder="Enter your complete address" aria-label="Last name">
+  </div>
+   <h4 class="mt-4"><i class="fa-solid fa-credit-card"></i>Payment Method</h4>
+<!-- form -->
+  <form>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label label" for="gridRadios1">
+         Cash on delivery
+        </label>
+      </div>
+      <div class="form-check mt-3">
+        <input class="form-check-input input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label label" for="gridRadios2">
+          Online Payment(UPI/Card)
+        </label>
+      </div>
+    </div>
+</form>
+<button class="credit"><i class="fa-solid fa-credit-card credit1"></i>Place Order</button>
+</div>
+        </div>
+         </section>
+         <!-- booking -->
+         <!-- outer8 -->
+          <section class="row min-vh-100 outer8 gap-5">
+            <div id="upper"></div>
+           <div class="col-8 left-img"></div>
+            <!-- form -->
+             <div class="col-6 right-form">
+                <h1>Make A Reservation</h1>
+             <form class="row g-3">
+  <div class="col-md-12">
+    <label for="inputEmail4" class="form-label labels">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-12">
+    <label for="inputPassword4" class="form-label labels">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <select class="form-select" size="3" aria-label="size 3 select example">
+  <option selected>Number of guests</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three or more</option>
+</select>
+<div class="row g-2">
+    <div class="col-6">
+        <label class="form-label label">Date and time</label>
+        <input type="date" class="form-control" placeholder="Select date">
+    </div>
+
+    <div class="col-6">
+        <label class="form-label label">&nbsp;</label>
+        <input type="time" class="form-control submit" placeholder="Select time">
+    </div>
+</div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+</div>
+<!-- bottom -->
+ <div class="row">
+ <div class="col-12 col-md-6 col-lg-6">
+ <h1>Bhai Biryani</h1>
+  <a href="" class="ang">Our Menu</a>
+    <h5>Monday-Sunday</h5>
+    <h5>8am-10pm</h5>
+ </div>
+ <div class="col-12 col-md-6 col-lg-6 bottom">
+ </div>
+ </div>
+</section>
+<!-- outer9 -->
+<section class="row outer9 p-5">
+    <!-- col1 -->
+    <div class="col-12 col-md-3 col-lg-3">
+    <div class="col-12 col-lg-2 d-flex align-items-center justify-content-center ps-3">
+                <img src="./logo.png" width="70" height="80">
+                <span class="ms-2 fs-5 bhai">Bhai <br>Biryani</span>
+                 </div>
+                <p class="rich">Authentic flavors, rich spices, and the best biryani in town! Experience the taste of tradition with every bite.</p>
+                <p> <i class="fa-brands fa-instagram icon1"></i>Instagram</p>
+                <p> <i class="fa-brands fa-facebook icon1"></i>Facebook</p>
+                <p> <i class="fa-brands fa-youtube icon1"></i>Youtube</p>
+            </div>
+            <!-- col2 -->
+            <div class="col-12 col-md-1 col-lg-1 space">
+                <h5>About</h5>
+                <p>About Us</p>
+                <p>Our Specialties</p>
+                <p> News</p>
+                <p>Menu</p>
+            </div>
+            <!-- col3 -->
+             <div class="col-12 col-md-1 col-lg-1 about ">
+                <h5>Company</h5>
+                <p>Why Bhai Biryani?</p>
+                <p>Partner With Us</p>
+                <p> FAQ</p>
+                <p>Blog</p>
+            </div>
+            <!-- col4 -->
+               <div class="col-12 col-md-1 col-lg-1 about">
+                <h5>Support</h5>
+                <p>Account</p>
+                <p>Support Center</p>
+                <p> Feedback</p>
+                <p>Contact Us</p>
+                <p>Accessibility</p>
+            </div>
+            <!-- col5 -->
+              <div class="col-12 col-md-1 col-lg-1 about">
+                <h5>Branches</h5>
+                <p>Chennai</p>
+                <p>Coimbatore</p>
+                <p>Madrai</p>
+                <p>Trichy</p>
+            </div>
+            <!-- col6 -->
+              <div class="col-12 col-md-1 col-lg-1 about">
+                <h5>Get in Touch</h5>
+                <p class="question">Have questions or feedback? We'd love to hear from you! </p>
+                <div class="share"><p>example@gmail.com</p><i class="fa-brands fa-telegram"></i></p></div>
+            </div>
+
+</section>
+
+
+
+
+  
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
